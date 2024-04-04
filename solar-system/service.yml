@@ -10,6 +10,7 @@ spec:
     protocol: TCP
     targetPort: 80 #change to 80
     nodePort: 30333
+  externalIP: 52.3.253.41
   selector:
     app: solar-system
   type: NodePort
